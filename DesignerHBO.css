@@ -1,0 +1,52 @@
+body{
+    font-family: 'Inter';
+    color: #FFFFFF;
+
+    background: #0F0F0F;
+}
+/*---------------Menu-----------------*/
+.menu{
+    display: block;
+    width: 165px;
+    height: 29px;
+    top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: url(img/image\ 8.png);
+}
+.menu p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5px;
+}
+/*---------------Fim Menu----------------------*/
+/*---------------Formulários----------------------*/
+form h2,p{
+    text-align: center;
+}
+form input{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px 10px 0px 0px;
+    border-radius: 25px;
+    height: 36px;
+    border: 0;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #7F7F7F;
+}
+form label{
+    margin: 10px 0px 10px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 23px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
